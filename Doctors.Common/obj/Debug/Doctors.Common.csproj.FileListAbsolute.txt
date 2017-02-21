@@ -1,0 +1,12 @@
+D:\MyCode\Test\Doctors\Doctors.Common\bin\Debug\Doctors.Common.dll
+D:\MyCode\Test\Doctors\Doctors.Common\bin\Debug\Doctors.Common.pdb
+D:\MyCode\Test\Doctors\Doctors.Common\obj\Debug\Doctors.Common.csprojResolveAssemblyReference.cache
+D:\MyCode\Test\Doctors\Doctors.Common\obj\Debug\Doctors.Common.dll
+D:\MyCode\Test\Doctors\Doctors.Common\obj\Debug\Doctors.Common.pdb
+D:\MyCode\Test\Doctors\Doctors.Common\bin\Debug\System.Net.Http.dll
+D:\MyCode\Test\Doctors\Doctors.Common\bin\Debug\System.Net.Http.Extensions.dll
+D:\MyCode\Test\Doctors\Doctors.Common\bin\Debug\System.Net.Http.Formatting.dll
+D:\MyCode\Test\Doctors\Doctors.Common\bin\Debug\System.Net.Http.Primitives.dll
+D:\MyCode\Test\Doctors\Doctors.Common\bin\Debug\System.Net.Http.WebRequest.dll
+D:\MyCode\Test\Doctors\Doctors.Common\bin\Debug\System.Net.Http.xml
+D:\MyCode\Test\Doctors\Doctors.Common\bin\Debug\System.Net.Http.WebRequest.xml

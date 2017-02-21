@@ -1,0 +1,7 @@
+D:\MyCode\Test\Doctors\Doctors.Repository\bin\Debug\Doctors.Repository.dll
+D:\MyCode\Test\Doctors\Doctors.Repository\bin\Debug\Doctors.Repository.pdb
+D:\MyCode\Test\Doctors\Doctors.Repository\bin\Debug\Dapper.dll
+D:\MyCode\Test\Doctors\Doctors.Repository\bin\Debug\Dapper.xml
+D:\MyCode\Test\Doctors\Doctors.Repository\obj\Debug\Doctors.Repository.csprojResolveAssemblyReference.cache
+D:\MyCode\Test\Doctors\Doctors.Repository\obj\Debug\Doctors.Repository.dll
+D:\MyCode\Test\Doctors\Doctors.Repository\obj\Debug\Doctors.Repository.pdb

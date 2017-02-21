@@ -1,0 +1,7 @@
+D:\MyCode\Test\Doctors\Doctors.IServices\bin\Debug\Doctors.IServices.dll
+D:\MyCode\Test\Doctors\Doctors.IServices\bin\Debug\Doctors.IServices.pdb
+D:\MyCode\Test\Doctors\Doctors.IServices\obj\Debug\Doctors.IServices.csprojResolveAssemblyReference.cache
+D:\MyCode\Test\Doctors\Doctors.IServices\obj\Debug\Doctors.IServices.dll
+D:\MyCode\Test\Doctors\Doctors.IServices\obj\Debug\Doctors.IServices.pdb
+D:\MyCode\Test\Doctors\Doctors.IServices\bin\Debug\Doctors.Model.dll
+D:\MyCode\Test\Doctors\Doctors.IServices\bin\Debug\Doctors.Model.pdb

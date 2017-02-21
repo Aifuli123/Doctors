@@ -1,0 +1,11 @@
+D:\MyCode\Test\Doctors\Doctors.WebHelper\bin\Debug\Doctors.WebHelper.dll
+D:\MyCode\Test\Doctors\Doctors.WebHelper\bin\Debug\Doctors.WebHelper.pdb
+D:\MyCode\Test\Doctors\Doctors.WebHelper\obj\Debug\Doctors.WebHelper.csprojResolveAssemblyReference.cache
+D:\MyCode\Test\Doctors\Doctors.WebHelper\obj\Debug\Doctors.WebHelper.dll
+D:\MyCode\Test\Doctors\Doctors.WebHelper\obj\Debug\Doctors.WebHelper.pdb
+D:\MyCode\Test\Doctors\Doctors.WebHelper\bin\Debug\System.Web.Http.dll
+D:\MyCode\Test\Doctors\Doctors.WebHelper\bin\Debug\System.Web.Mvc.dll
+D:\MyCode\Test\Doctors\Doctors.WebHelper\bin\Debug\System.Web.Http.xml
+D:\MyCode\Test\Doctors\Doctors.WebHelper\bin\Debug\System.Web.Mvc.xml
+D:\MyCode\Test\Doctors\Doctors.WebHelper\bin\Debug\zh-Hans\System.Web.Http.resources.dll
+D:\MyCode\Test\Doctors\Doctors.WebHelper\bin\Debug\zh-Hans\System.Web.Mvc.resources.dll

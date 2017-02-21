@@ -1,0 +1,13 @@
+D:\MyCode\Test\Doctors\Doctors.Services\bin\Debug\Doctors.Services.dll
+D:\MyCode\Test\Doctors\Doctors.Services\bin\Debug\Doctors.Services.pdb
+D:\MyCode\Test\Doctors\Doctors.Services\bin\Debug\Dapper.dll
+D:\MyCode\Test\Doctors\Doctors.Services\bin\Debug\Doctors.IServices.dll
+D:\MyCode\Test\Doctors\Doctors.Services\bin\Debug\Doctors.Model.dll
+D:\MyCode\Test\Doctors\Doctors.Services\bin\Debug\Doctors.Repository.dll
+D:\MyCode\Test\Doctors\Doctors.Services\bin\Debug\Doctors.IServices.pdb
+D:\MyCode\Test\Doctors\Doctors.Services\bin\Debug\Doctors.Model.pdb
+D:\MyCode\Test\Doctors\Doctors.Services\bin\Debug\Doctors.Repository.pdb
+D:\MyCode\Test\Doctors\Doctors.Services\bin\Debug\Dapper.xml
+D:\MyCode\Test\Doctors\Doctors.Services\obj\Debug\Doctors.Services.csprojResolveAssemblyReference.cache
+D:\MyCode\Test\Doctors\Doctors.Services\obj\Debug\Doctors.Services.dll
+D:\MyCode\Test\Doctors\Doctors.Services\obj\Debug\Doctors.Services.pdb
