@@ -10,13 +10,15 @@ using Doctors.Common;
 using System.ComponentModel;
 using Doctors.IServices;
 using Autofac;
+using Doctors.API.Filters;
+
 namespace Doctors.API.CustomerAttributes
 {
 
     /// <summary>
     /// 自定义的统一登录验证过滤器
     /// </summary>
-    public class CheckLoginAttribute : ActionFilterAttribute
+    public class CheckLoginFilterAttribute : ActionFilterAttribute, IOrderFilter
     {
         /// <summary>
         /// 负责验证Session[Keys.Uinfo]是否为null，如果为null则直接跳转到登录页面
@@ -76,6 +78,9 @@ namespace Doctors.API.CustomerAttributes
             }
         }
 
-        
+        public int Order { get { return 1; } }
+
+
+
     }
 }
