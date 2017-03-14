@@ -11,3 +11,15 @@ D:\MyCode\Test\Doctors\Doctors.Services\bin\Debug\Dapper.xml
 D:\MyCode\Test\Doctors\Doctors.Services\obj\Debug\Doctors.Services.csprojResolveAssemblyReference.cache
 D:\MyCode\Test\Doctors\Doctors.Services\obj\Debug\Doctors.Services.dll
 D:\MyCode\Test\Doctors\Doctors.Services\obj\Debug\Doctors.Services.pdb
+E:\MyRepository\Doctors\Doctors.Services\bin\Debug\Doctors.Services.dll
+E:\MyRepository\Doctors\Doctors.Services\bin\Debug\Doctors.Services.pdb
+E:\MyRepository\Doctors\Doctors.Services\bin\Debug\Dapper.dll
+E:\MyRepository\Doctors\Doctors.Services\bin\Debug\Doctors.IServices.dll
+E:\MyRepository\Doctors\Doctors.Services\bin\Debug\Doctors.Model.dll
+E:\MyRepository\Doctors\Doctors.Services\bin\Debug\Doctors.Repository.dll
+E:\MyRepository\Doctors\Doctors.Services\bin\Debug\Doctors.IServices.pdb
+E:\MyRepository\Doctors\Doctors.Services\bin\Debug\Doctors.Model.pdb
+E:\MyRepository\Doctors\Doctors.Services\bin\Debug\Doctors.Repository.pdb
+E:\MyRepository\Doctors\Doctors.Services\obj\Debug\Doctors.Services.csprojResolveAssemblyReference.cache
+E:\MyRepository\Doctors\Doctors.Services\obj\Debug\Doctors.Services.dll
+E:\MyRepository\Doctors\Doctors.Services\obj\Debug\Doctors.Services.pdb

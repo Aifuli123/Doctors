@@ -10,3 +10,14 @@ D:\MyCode\Test\Doctors\Doctors.Common\bin\Debug\System.Net.Http.Primitives.dll
 D:\MyCode\Test\Doctors\Doctors.Common\bin\Debug\System.Net.Http.WebRequest.dll
 D:\MyCode\Test\Doctors\Doctors.Common\bin\Debug\System.Net.Http.xml
 D:\MyCode\Test\Doctors\Doctors.Common\bin\Debug\System.Net.Http.WebRequest.xml
+E:\MyRepository\Doctors\Doctors.Common\bin\Debug\Doctors.Common.dll
+E:\MyRepository\Doctors\Doctors.Common\bin\Debug\Doctors.Common.pdb
+E:\MyRepository\Doctors\Doctors.Common\bin\Debug\System.Net.Http.dll
+E:\MyRepository\Doctors\Doctors.Common\bin\Debug\System.Net.Http.Extensions.dll
+E:\MyRepository\Doctors\Doctors.Common\bin\Debug\System.Net.Http.Formatting.dll
+E:\MyRepository\Doctors\Doctors.Common\bin\Debug\System.Net.Http.Primitives.dll
+E:\MyRepository\Doctors\Doctors.Common\bin\Debug\System.Net.Http.WebRequest.dll
+E:\MyRepository\Doctors\Doctors.Common\bin\Debug\System.Net.Http.xml
+E:\MyRepository\Doctors\Doctors.Common\bin\Debug\System.Net.Http.WebRequest.xml
+E:\MyRepository\Doctors\Doctors.Common\obj\Debug\Doctors.Common.dll
+E:\MyRepository\Doctors\Doctors.Common\obj\Debug\Doctors.Common.pdb

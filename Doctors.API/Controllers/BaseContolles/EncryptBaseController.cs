@@ -27,58 +27,58 @@ namespace Doctors.API.Controllers.BaseContolles
         #endregion
 
 
-        public SimpleResult SIGN_ERROR = new SimpleResult() { Status=0,Success=false,Msg=""};
+        public SimpleResult SIGN_ERROR = new SimpleResult() { Status = Result.failure,Msg=""};
 
         /// <summary>
         /// 签名是否验证成功
         /// </summary>
-        public bool SignSuccess
-        {
-            get
-            {
-                if (CheckPramers())
-                {
-                    string method = HttpContext.Current.Request.HttpMethod;
-                    System.Collections.Specialized.NameValueCollection form = HttpContext.Current.Request.QueryString;
-                    switch (method)
-                    {
-                        case "POST":
-                            form = HttpContext.Current.Request.Form;
-                            break;
-                        case "GET":
-                            form = HttpContext.Current.Request.QueryString;
-                            break;
-                        default:
-                            return false;
-                    }
-                    IDictionary<string, string> parameters = new Dictionary<string, string>();
-                    for (int f = 0; f < form.Count; f++)
-                    {
-                        string key = form.Keys[f];
-                        if (key.ToLower() == "sign") continue;
-                        parameters.Add(key, form[key]);
-                    }
+        //public bool SignSuccess
+        //{
+        //    get
+        //    {
+        //        if (CheckPramers())
+        //        {
+        //            string method = HttpContext.Current.Request.HttpMethod;
+        //            System.Collections.Specialized.NameValueCollection form = HttpContext.Current.Request.QueryString;
+        //            switch (method)
+        //            {
+        //                case "POST":
+        //                    form = HttpContext.Current.Request.Form;
+        //                    break;
+        //                case "GET":
+        //                    form = HttpContext.Current.Request.QueryString;
+        //                    break;
+        //                default:
+        //                    return false;
+        //            }
+        //            IDictionary<string, string> parameters = new Dictionary<string, string>();
+        //            for (int f = 0; f < form.Count; f++)
+        //            {
+        //                string key = form.Keys[f];
+        //                if (key.ToLower() == "sign") continue;
+        //                parameters.Add(key, form[key]);
+        //            }
 
-                    return SignRequest(parameters, app_secret, false) == sign;//将服务端sign和客户端传过来的sign进行比较
-                    /*
-                     * 上面签名验签使用的是MD5方式，如果要使用RSA的方式用下面这个
-                     * 上面使用的是MD5加密，如果使用RSA的方式如下
-                    */
-                    //SortedDictionary<string, string> sParaTemp = new SortedDictionary<string, string>();
-                    //for (int f = 0; f < form.Count; f++)
-                    //{
-                    //    string key = form.Keys[f];
-                    //    if (key.ToLower() == "sign") continue;
-                    //    sParaTemp.Add(key, form[key]);
-                    //}
-                    //return RSAFromPkcs8.verify(sParaTemp.ToString(),sign,"存在服务端公钥","utf-8");
-                }
-                else
-                {
-                    return false;
-                }
-            }
-        }
+        //            return SignRequest(parameters, app_secret, false) == sign;//将服务端sign和客户端传过来的sign进行比较
+        //            /*
+        //             * 上面签名验签使用的是MD5方式，如果要使用RSA的方式用下面这个
+        //             * 上面使用的是MD5加密，如果使用RSA的方式如下
+        //            */
+        //            //SortedDictionary<string, string> sParaTemp = new SortedDictionary<string, string>();
+        //            //for (int f = 0; f < form.Count; f++)
+        //            //{
+        //            //    string key = form.Keys[f];
+        //            //    if (key.ToLower() == "sign") continue;
+        //            //    sParaTemp.Add(key, form[key]);
+        //            //}
+        //            //return RSAFromPkcs8.verify(sParaTemp.ToString(),sign,"存在服务端公钥","utf-8");
+        //        }
+        //        else
+        //        {
+        //            return false;
+        //        }
+        //    }
+        //}
 
         /// <summary>
         /// 应用认证，匹配app_key+app_secret
@@ -186,42 +186,42 @@ namespace Doctors.API.Controllers.BaseContolles
         /// 检测敏感参数（安全机制）
         /// </summary>
         /// <returns></returns>
-        bool CheckPramers()
-        {
-            //一：检测时间戳
-            if (!string.IsNullOrEmpty(timestamp) && timestamp.Length == 14)
-            {
-                DateTime dtimestamp;
-                try
-                {
-                    dtimestamp = DateTime.ParseExact(timestamp, "yyyyMMddHHmmss", System.Globalization.CultureInfo.CurrentCulture);
-                }
-                catch (Exception)
-                {
-                    SIGN_ERROR = new SimpleResult() { Status = 100001, Success=false, Msg = "时间戳格式不正确" };
-                    return false;
-                }
+        //bool CheckPramers()
+        //{
+        //    //一：检测时间戳
+        //    if (!string.IsNullOrEmpty(timestamp) && timestamp.Length == 14)
+        //    {
+        //        DateTime dtimestamp;
+        //        try
+        //        {
+        //            dtimestamp = DateTime.ParseExact(timestamp, "yyyyMMddHHmmss", System.Globalization.CultureInfo.CurrentCulture);
+        //        }
+        //        catch (Exception)
+        //        {
+        //            SIGN_ERROR = new SimpleResult() { Status = 100001, Success=false, Msg = "时间戳格式不正确" };
+        //            return false;
+        //        }
 
-                //判断签名是否已过期
-                if (dtimestamp < DateTime.Now.AddSeconds(-15))//请求有效时间15秒
-                {
-                    SIGN_ERROR = new SimpleResult() { Status = 100001, Success=false, Msg = "当前请求已过期" };
-                    return false;
-                }
-            }
-            else
-            {
-                SIGN_ERROR = new SimpleResult() { Status =100001, Success = false, Msg = "时间戳格式不正确" };
-                return false;
-            }
-            //二：检测敏感参数
-            string secret = HttpContext.Current.Request["app_secret"];//RequestHelper.GetString("app_secret");
-            if (!string.IsNullOrEmpty(secret))
-            {
-                SIGN_ERROR = new SimpleResult() { Status = 100001, Success = false, Msg = "存在不安全的敏感参数" };
-                return false;
-            }
-            return true;
-        }
+        //        //判断签名是否已过期
+        //        if (dtimestamp < DateTime.Now.AddSeconds(-15))//请求有效时间15秒
+        //        {
+        //            SIGN_ERROR = new SimpleResult() { Status = 100001, Success=false, Msg = "当前请求已过期" };
+        //            return false;
+        //        }
+        //    }
+        //    else
+        //    {
+        //        SIGN_ERROR = new SimpleResult() { Status =100001, Success = false, Msg = "时间戳格式不正确" };
+        //        return false;
+        //    }
+        //    //二：检测敏感参数
+        //    string secret = HttpContext.Current.Request["app_secret"];//RequestHelper.GetString("app_secret");
+        //    if (!string.IsNullOrEmpty(secret))
+        //    {
+        //        SIGN_ERROR = new SimpleResult() { Status = 100001, Success = false, Msg = "存在不安全的敏感参数" };
+        //        return false;
+        //    }
+        //    return true;
+        //}
     }
 }

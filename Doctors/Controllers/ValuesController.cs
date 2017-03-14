@@ -18,23 +18,7 @@ namespace Doctors.Controllers
         {
             sysUserInfo = user;
         }
-        [HttpGet]
-        public IHttpActionResult LogIn()
-        {
-           var Isok= sysUserInfo.LogIn("2", "22");
-            BaseResult result = new BaseResult();
-            if (Isok)
-            {
-                result.Result = Result.succeed;
-                result.Message = "登陆成功！";
-            }
-            else
-            {
-                result.Result = Result.failure;
-                result.Message = "登陆失败！";
-            }
-            return Json<BaseResult>(result);
-        }
+    
         // GET api/values
         public IEnumerable<string> Get()
         {

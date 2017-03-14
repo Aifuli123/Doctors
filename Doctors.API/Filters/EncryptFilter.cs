@@ -24,7 +24,7 @@ namespace Doctors.API.Filters
              result=baseController.APPAuthorization;
             if (result)
             {
-                result = baseController.SignSuccess;
+                //result = baseController.SignSuccess;
             }
              
           

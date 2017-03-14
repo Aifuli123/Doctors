@@ -14,7 +14,7 @@ namespace Doctors.Repository
     {
 
         // string connection= ConfigurationManager.ConnectionStrings["wzyx"].ConnectionString;
-        static string connection= "Server=(local);Database=MyDataBase;User Id=AIFULI;password=02233657;Trusted_Connection=True;MultipleActiveResultSets=true";
+        static string connection= "Server=(local);Database=wzyx;User Id=AIFULI;password=02233657;Trusted_Connection=True;MultipleActiveResultSets=true";
         #region +ExcuteNonQuery 增、删、改同步操作
         /// <summary>
         /// 增、删、改同步操作

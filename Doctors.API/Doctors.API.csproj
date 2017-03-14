@@ -188,7 +188,7 @@
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
     <Compile Include="Controllers\BaseContolles\BaseApiController.cs" />
     <Compile Include="Controllers\BaseContolles\EncryptBaseController.cs" />
-    <Compile Include="Controllers\ValuesController.cs" />
+    <Compile Include="Controllers\DoctorInforController.cs" />
     <Compile Include="Filters\CheckLoginFilterAttribute.cs" />
     <Compile Include="CustomerAttributes\SkipCheckLogin.cs" />
     <Compile Include="CustomerAttributes\Test.cs" />

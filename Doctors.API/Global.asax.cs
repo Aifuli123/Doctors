@@ -17,7 +17,7 @@ namespace Doctors.API
         protected void Application_Start()
         {
             //FilterPorvider，排序支持
-            GlobalConfiguration.Configuration.Services.Replace(typeof(System.Web.Http.Filters.IFilterProvider), new ActionOrderFilterProvider());
+          //  GlobalConfiguration.Configuration.Services.Replace(typeof(System.Web.Http.Filters.IFilterProvider), new ActionOrderFilterProvider());
 
 
             AreaRegistration.RegisterAllAreas();

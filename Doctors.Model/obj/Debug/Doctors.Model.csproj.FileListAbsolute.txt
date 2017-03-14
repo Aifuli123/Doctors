@@ -3,3 +3,7 @@ D:\MyCode\Test\Doctors\Doctors.Model\bin\Debug\Doctors.Model.pdb
 D:\MyCode\Test\Doctors\Doctors.Model\obj\Debug\Doctors.Model.csprojResolveAssemblyReference.cache
 D:\MyCode\Test\Doctors\Doctors.Model\obj\Debug\Doctors.Model.dll
 D:\MyCode\Test\Doctors\Doctors.Model\obj\Debug\Doctors.Model.pdb
+E:\MyRepository\Doctors\Doctors.Model\bin\Debug\Doctors.Model.dll
+E:\MyRepository\Doctors\Doctors.Model\bin\Debug\Doctors.Model.pdb
+E:\MyRepository\Doctors\Doctors.Model\obj\Debug\Doctors.Model.dll
+E:\MyRepository\Doctors\Doctors.Model\obj\Debug\Doctors.Model.pdb
