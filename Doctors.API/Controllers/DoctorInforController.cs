@@ -32,6 +32,7 @@ namespace Doctors.API.Controllers
         [HttpGet]
         public IHttpActionResult Test()
         {
+            //duxiaoyang
             var item = doctorInforService.GetDoctorInfor("1");
             SimpleResult result = new SimpleResult();
             result.Resource = item;
