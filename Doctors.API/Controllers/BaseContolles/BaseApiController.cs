@@ -12,11 +12,13 @@ namespace Doctors.API.Controllers.BaseContolles
 {
     public class BaseApiController: EncryptBaseController
     {
-      
+       
     }
 
-    public class UserObj: DoctorInfor
+    public  class UserObj
     {
+       public  DoctorInfor doctorInfor { get; set; }
+
         [ThreadStatic]
         [NonSerialized]
         private static UserObj currentUserObj;
@@ -24,12 +26,12 @@ namespace Doctors.API.Controllers.BaseContolles
         {
             get
             {
-                var accountID = HttpContext.Current.Items["accountID"] as string;
-                if (!string.IsNullOrWhiteSpace(accountID))
+                var token = HttpContext.Current.Request["token"] as string;
+                if (!string.IsNullOrWhiteSpace(token))
                 {
 
-                    var user = (UserObj)CacheMgr.GetData<DoctorInfor>(accountID);
-                    return user;
+                    currentUserObj.doctorInfor = CacheMgr.GetData<DoctorInfor>(token);
+                    return currentUserObj;
                 }
                 else
                 {
@@ -38,12 +40,7 @@ namespace Doctors.API.Controllers.BaseContolles
             }
             set
             {
-                if (HttpContext.Current != null)
-                    HttpContext.Current.Items["userobj"] = value;
-                else
-                {
-                    currentUserObj = value;
-                }
+               currentUserObj = value;
             }
         }
     }

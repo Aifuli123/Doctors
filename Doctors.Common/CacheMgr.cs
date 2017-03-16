@@ -22,7 +22,7 @@ namespace Doctors.Common
             HttpRuntime.Cache[key] = value;
         }
         /// <summary>
-        /// 覆盖插入
+        /// 覆盖插入 带过期设置
         /// </summary>
         /// <param name="key"></param>
         /// <param name="value"></param>

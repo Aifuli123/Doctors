@@ -38,7 +38,7 @@ namespace Doctors.API.Controllers
         public IHttpActionResult Test(string Token)
         {
            
-            var c = Token;
+             var c = Token;
            var d = CacheMgr.GetData<DoctorInfor>(c);
             var item = doctorInforService.GetDoctorInfor("1");
             SimpleResult result = new SimpleResult();
