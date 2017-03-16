@@ -9,7 +9,8 @@ namespace Doctors.Model
     public class DoctorInfor
     {
         #region Model
-        private string _doctorid;
+        private long _doctorid;
+        private long _accountid;
         private string _name;
         private bool? _sex;
         private string _head_image;
@@ -31,10 +32,15 @@ namespace Doctors.Model
         /// <summary>
         /// 
         /// </summary>
-        public string doctorID
+        public long doctorID
         {
             set { _doctorid = value; }
             get { return _doctorid; }
+        }
+        public long accountID
+        {
+            set { _accountid = value; }
+            get { return _accountid; }
         }
         /// <summary>
         /// 

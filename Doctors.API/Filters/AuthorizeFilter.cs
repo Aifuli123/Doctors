@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Doctors.Common;
+using Doctors.Model;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -29,9 +31,9 @@ namespace Doctors.API.Filters
                 string action = actionContext.ActionDescriptor.ActionName;
                 //URL路径
                 string filePath = HttpContext.Current.Request.FilePath;
+                string accountID = "";
                 if (LoginUserManage.ValidateTicket(token)/* && ValiddatePermission(token, controller, action, filePath)*/)
                 {
-
                     base.IsAuthorized(actionContext);
                 }
                 else
@@ -92,26 +94,38 @@ namespace Doctors.API.Filters
     public static class LoginUserManage
     {
         //校验用户名密码（对Session匹配，或数据库数据匹配）
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="encryptToken"></param>
+        /// <param name="accountID"></param>
+        /// <returns></returns>
         public static  bool ValidateTicket(string encryptToken)
         {
-            //解密Ticket
-            var strTicket = FormsAuthentication.Decrypt(encryptToken).UserData;
+            ////解密Ticket
+            //var strTicket = FormsAuthentication.Decrypt(encryptToken).UserData;
 
-            //从Ticket里面获取用户名和密码
-            var index = strTicket.IndexOf("&");
-            string userName = strTicket.Substring(0, index);
-            string password = strTicket.Substring(index + 1);
-            //取得session，不通过说明用户退出，或者session已经过期
-            var token = HttpContext.Current.Session[userName];
-            if (token == null)
-            {
-                return false;
-            }
-            //对比session中的令牌
-            if (token.ToString() == encryptToken)
+            ////从Ticket里面获取用户名和密码
+            //var index = strTicket.IndexOf("&");
+            //string userName = strTicket.Substring(0, index);
+            //string password = strTicket.Substring(index + 1);
+            var token= CacheMgr.Get<DoctorInfor>(encryptToken);
+            if (token != null)
             {
                 return true;
             }
+
+            #region 只使用于网站身份验证
+            //取得session，不通过说明用户退出，或者session已经过期
+            //var token = HttpContext.Current.Session[userName];
+            //accountID = "";
+            //if (token == null)
+            //{
+            //    return false;
+            //} 
+            #endregion
+            //对比session中的令牌
+           
 
             return false;
 
