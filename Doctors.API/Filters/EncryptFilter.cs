@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Net.Http;
 using System.Net.Http.Formatting;
 using System.Net.Http.Headers;
@@ -9,6 +10,7 @@ using System.Web;
 using System.Web.Http;
 using System.Web.Http.Controllers;
 using System.Web.Http.Filters;
+using System.Web.Http.Results;
 
 namespace Doctors.API.Filters
 {
@@ -16,6 +18,7 @@ namespace Doctors.API.Filters
     {
         public override void OnActionExecuting(HttpActionContext actionContext)
         {
+            base.OnActionExecuting(actionContext);
             var responseMessage = new HttpResponseMessage();
             
             var type = actionContext.ActionDescriptor.ReturnType;
@@ -24,13 +27,12 @@ namespace Doctors.API.Filters
              result=baseController.APPAuthorization;
             if (result)
             {
-                //result = baseController.SignSuccess;
+                result = baseController.SignSuccess;
             }
-             
-          
-            var cn = GlobalConfiguration.Configuration.Services.GetService(typeof(IContentNegotiator)) as IContentNegotiator;
-            var cr = cn.Negotiate(type, actionContext.Request, GlobalConfiguration.Configuration.Formatters);
-            responseMessage.Content = new ObjectContent(type,baseController.SIGN_ERROR, cr.Formatter);
+
+            if (!result)     
+            actionContext.Response = actionContext.Request.CreateResponse(HttpStatusCode.OK, baseController.SIGN_ERROR);
+
             return;
 
         }

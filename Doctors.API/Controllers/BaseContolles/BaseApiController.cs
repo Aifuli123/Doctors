@@ -8,7 +8,7 @@ using System.Web.Http;
 
 namespace Doctors.API.Controllers.BaseContolles
 {
-    public class BaseApiController: ApiController
+    public class BaseApiController: EncryptBaseController
     {
     }
 }
