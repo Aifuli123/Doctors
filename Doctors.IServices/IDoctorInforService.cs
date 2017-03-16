@@ -10,5 +10,6 @@ namespace Doctors.IServices
     public interface IDoctorInforService
     {
         DoctorInfor GetDoctorInfor(string id);
+        DoctorInfor GetDoctorInfor(string userName,string pwd, int type);
     }
 }

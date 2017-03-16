@@ -68,6 +68,10 @@ namespace Doctors.API.Controllers.BaseContolles
                     {
                         string key = form.Keys[f];
                         if (key.ToLower() == "sign") continue;
+#if DEBUG 
+                        if (key.ToLower() == "token") continue;
+#endif
+
                         parameters.Add(key, form[key]);
                     }
 

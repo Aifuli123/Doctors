@@ -1,5 +1,7 @@
 ﻿using Doctors.API.Controllers.BaseContolles;
+using Doctors.Common;
 using Doctors.IServices;
+using Doctors.Model;
 using Doctors.Model.BaseResult;
 using System;
 using System.Collections.Generic;
@@ -33,10 +35,11 @@ namespace Doctors.API.Controllers
         }
 
         [HttpGet]
-        public IHttpActionResult Test()
+        public IHttpActionResult Test(string Token)
         {
-            //duxiaoyang
-            //ceshi
+           
+            var c = Token;
+           var d = CacheMgr.GetData<DoctorInfor>(c);
             var item = doctorInforService.GetDoctorInfor("1");
             SimpleResult result = new SimpleResult();
             result.Resource = item;
@@ -45,9 +48,11 @@ namespace Doctors.API.Controllers
 
         [HttpGet]
         [AllowAnonymous]
-        public IHttpActionResult LogIn(string userName,string password)
+        public IHttpActionResult LogIn(string userName,string password,int type)
         {
+            var c = HttpContext.Current.Items["accountID"] as string;
             SimpleResult result = new SimpleResult();
+            var item = doctorInforService.GetDoctorInfor(userName,password,type);
             if (userName != "123" && password != "123")
             {
                 result.Status = Result.FAILURE;
@@ -55,18 +60,16 @@ namespace Doctors.API.Controllers
                 return Json(result);
             }
             FormsAuthenticationTicket token = new FormsAuthenticationTicket(0, userName, DateTime.Now,
-                            DateTime.Now.AddHours(1), true, string.Format("{0}&{1}", userName, password),
+                            DateTime.Now.AddHours(1), true, string.Format("{0}&{1}", item.accountID, password),
                             FormsAuthentication.FormsCookiePath);
             //返回登录结果、用户信息、用户验证票据信息
             var Token = FormsAuthentication.Encrypt(token);
             //将身份信息保存在session中，验证当前请求是否是有效请求
-            HttpContext.Current.Session[userName] = Token;
            
+            CacheMgr.Insert(Token, item, CacheType.Token);
             result.Resource = Token;
 
 
-
-            var strTicket = FormsAuthentication.Decrypt(Token).UserData;
 
             return Json(result);
 
