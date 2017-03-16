@@ -21,3 +21,4 @@ E:\MyRepository\Doctors\Doctors.Common\bin\Debug\System.Net.Http.xml
 E:\MyRepository\Doctors\Doctors.Common\bin\Debug\System.Net.Http.WebRequest.xml
 E:\MyRepository\Doctors\Doctors.Common\obj\Debug\Doctors.Common.dll
 E:\MyRepository\Doctors\Doctors.Common\obj\Debug\Doctors.Common.pdb
+E:\MyRepository\Doctors\Doctors.Common\obj\Debug\Doctors.Common.csprojResolveAssemblyReference.cache

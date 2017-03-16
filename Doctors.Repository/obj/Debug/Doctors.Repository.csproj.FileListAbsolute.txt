@@ -11,3 +11,4 @@ E:\MyRepository\Doctors\Doctors.Repository\bin\Debug\Dapper.dll
 E:\MyRepository\Doctors\Doctors.Repository\bin\Debug\Dapper.xml
 E:\MyRepository\Doctors\Doctors.Repository\obj\Debug\Doctors.Repository.dll
 E:\MyRepository\Doctors\Doctors.Repository\obj\Debug\Doctors.Repository.pdb
+E:\MyRepository\Doctors\Doctors.Repository\obj\Debug\Doctors.Repository.csprojResolveAssemblyReference.cache

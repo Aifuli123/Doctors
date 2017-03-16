@@ -1,5 +1,6 @@
 ﻿
 using Doctors.API.CustomerAttributes;
+using Doctors.API.Filters;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -33,7 +34,8 @@ namespace Doctors.API
                 defaults: new { id = RouteParameter.Optional }
                 ).RouteHandler = new SessionControllerRouteHandler();
 
-
+            config.Filters.Add(new AuthorizeFilter());
+            config.Filters.Add(new EncryptFilter());
         }
     }
 
