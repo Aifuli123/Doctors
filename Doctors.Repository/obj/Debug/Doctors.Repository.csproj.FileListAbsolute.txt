@@ -12,3 +12,10 @@ E:\MyRepository\Doctors\Doctors.Repository\bin\Debug\Dapper.xml
 E:\MyRepository\Doctors\Doctors.Repository\obj\Debug\Doctors.Repository.dll
 E:\MyRepository\Doctors\Doctors.Repository\obj\Debug\Doctors.Repository.pdb
 E:\MyRepository\Doctors\Doctors.Repository\obj\Debug\Doctors.Repository.csprojResolveAssemblyReference.cache
+L:\万众一心\wzyx\Doctors\Doctors.Repository\bin\Debug\Doctors.Repository.dll
+L:\万众一心\wzyx\Doctors\Doctors.Repository\bin\Debug\Doctors.Repository.pdb
+L:\万众一心\wzyx\Doctors\Doctors.Repository\bin\Debug\Dapper.dll
+L:\万众一心\wzyx\Doctors\Doctors.Repository\bin\Debug\Dapper.xml
+L:\万众一心\wzyx\Doctors\Doctors.Repository\obj\Debug\Doctors.Repository.csprojResolveAssemblyReference.cache
+L:\万众一心\wzyx\Doctors\Doctors.Repository\obj\Debug\Doctors.Repository.dll
+L:\万众一心\wzyx\Doctors\Doctors.Repository\obj\Debug\Doctors.Repository.pdb

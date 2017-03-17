@@ -12,3 +12,10 @@ E:\MyRepository\Doctors\Doctors.IServices\bin\Debug\Doctors.Model.pdb
 E:\MyRepository\Doctors\Doctors.IServices\obj\Debug\Doctors.IServices.csprojResolveAssemblyReference.cache
 E:\MyRepository\Doctors\Doctors.IServices\obj\Debug\Doctors.IServices.dll
 E:\MyRepository\Doctors\Doctors.IServices\obj\Debug\Doctors.IServices.pdb
+L:\万众一心\wzyx\Doctors\Doctors.IServices\bin\Debug\Doctors.IServices.dll
+L:\万众一心\wzyx\Doctors\Doctors.IServices\bin\Debug\Doctors.IServices.pdb
+L:\万众一心\wzyx\Doctors\Doctors.IServices\bin\Debug\Doctors.Model.dll
+L:\万众一心\wzyx\Doctors\Doctors.IServices\bin\Debug\Doctors.Model.pdb
+L:\万众一心\wzyx\Doctors\Doctors.IServices\obj\Debug\Doctors.IServices.csprojResolveAssemblyReference.cache
+L:\万众一心\wzyx\Doctors\Doctors.IServices\obj\Debug\Doctors.IServices.dll
+L:\万众一心\wzyx\Doctors\Doctors.IServices\obj\Debug\Doctors.IServices.pdb

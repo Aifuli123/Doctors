@@ -23,3 +23,15 @@ E:\MyRepository\Doctors\Doctors.Services\bin\Debug\Doctors.Repository.pdb
 E:\MyRepository\Doctors\Doctors.Services\obj\Debug\Doctors.Services.csprojResolveAssemblyReference.cache
 E:\MyRepository\Doctors\Doctors.Services\obj\Debug\Doctors.Services.dll
 E:\MyRepository\Doctors\Doctors.Services\obj\Debug\Doctors.Services.pdb
+L:\万众一心\wzyx\Doctors\Doctors.Services\bin\Debug\Doctors.Services.dll
+L:\万众一心\wzyx\Doctors\Doctors.Services\bin\Debug\Doctors.Services.pdb
+L:\万众一心\wzyx\Doctors\Doctors.Services\bin\Debug\Dapper.dll
+L:\万众一心\wzyx\Doctors\Doctors.Services\bin\Debug\Doctors.IServices.dll
+L:\万众一心\wzyx\Doctors\Doctors.Services\bin\Debug\Doctors.Model.dll
+L:\万众一心\wzyx\Doctors\Doctors.Services\bin\Debug\Doctors.Repository.dll
+L:\万众一心\wzyx\Doctors\Doctors.Services\bin\Debug\Doctors.IServices.pdb
+L:\万众一心\wzyx\Doctors\Doctors.Services\bin\Debug\Doctors.Model.pdb
+L:\万众一心\wzyx\Doctors\Doctors.Services\bin\Debug\Doctors.Repository.pdb
+L:\万众一心\wzyx\Doctors\Doctors.Services\obj\Debug\Doctors.Services.csprojResolveAssemblyReference.cache
+L:\万众一心\wzyx\Doctors\Doctors.Services\obj\Debug\Doctors.Services.dll
+L:\万众一心\wzyx\Doctors\Doctors.Services\obj\Debug\Doctors.Services.pdb
