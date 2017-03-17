@@ -160,6 +160,7 @@
     <Compile Include="Controllers\BaseContolles\BaseApiController.cs" />
     <Compile Include="Controllers\BaseContolles\DelegateFilter.cs" />
     <Compile Include="Controllers\BaseContolles\EncryptBaseController.cs" />
+    <Compile Include="Controllers\CirclesInfoController.cs" />
     <Compile Include="Controllers\DoctorInforController.cs" />
     <Compile Include="Filters\AuthorizeFilter.cs" />
     <Compile Include="CustomerAttributes\SkipCheckLogin.cs" />
@@ -189,6 +190,7 @@
     <Folder Include="App_Data\" />
     <Folder Include="Areas\" />
     <Folder Include="Models\" />
+    <Folder Include="Views\CirclesInfo\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />

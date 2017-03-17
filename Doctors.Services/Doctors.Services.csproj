@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CirclesInfoService.cs" />
     <Compile Include="DoctorInforService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SysUserInfo.cs" />
