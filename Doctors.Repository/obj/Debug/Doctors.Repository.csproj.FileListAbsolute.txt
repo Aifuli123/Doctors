@@ -19,3 +19,10 @@ L:\万众一心\wzyx\Doctors\Doctors.Repository\bin\Debug\Dapper.xml
 L:\万众一心\wzyx\Doctors\Doctors.Repository\obj\Debug\Doctors.Repository.csprojResolveAssemblyReference.cache
 L:\万众一心\wzyx\Doctors\Doctors.Repository\obj\Debug\Doctors.Repository.dll
 L:\万众一心\wzyx\Doctors\Doctors.Repository\obj\Debug\Doctors.Repository.pdb
+E:\万众一心\wzyx\Doctors\Doctors.Repository\bin\Debug\Doctors.Repository.dll
+E:\万众一心\wzyx\Doctors\Doctors.Repository\bin\Debug\Doctors.Repository.pdb
+E:\万众一心\wzyx\Doctors\Doctors.Repository\bin\Debug\Dapper.dll
+E:\万众一心\wzyx\Doctors\Doctors.Repository\bin\Debug\Dapper.xml
+E:\万众一心\wzyx\Doctors\Doctors.Repository\obj\Debug\Doctors.Repository.csprojResolveAssemblyReference.cache
+E:\万众一心\wzyx\Doctors\Doctors.Repository\obj\Debug\Doctors.Repository.dll
+E:\万众一心\wzyx\Doctors\Doctors.Repository\obj\Debug\Doctors.Repository.pdb

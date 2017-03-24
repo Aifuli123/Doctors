@@ -44,7 +44,7 @@ namespace Doctors.Model
         /// <summary>
         /// 
         /// </summary>
-        public String contentText
+        public string contentText
         {
             set { _contentText = value; }
             get { return _contentText; }

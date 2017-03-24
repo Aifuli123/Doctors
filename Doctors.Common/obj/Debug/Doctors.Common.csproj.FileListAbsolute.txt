@@ -34,3 +34,17 @@ L:\万众一心\wzyx\Doctors\Doctors.Common\bin\Debug\System.Net.Http.WebRequest
 L:\万众一心\wzyx\Doctors\Doctors.Common\obj\Debug\Doctors.Common.csprojResolveAssemblyReference.cache
 L:\万众一心\wzyx\Doctors\Doctors.Common\obj\Debug\Doctors.Common.dll
 L:\万众一心\wzyx\Doctors\Doctors.Common\obj\Debug\Doctors.Common.pdb
+E:\万众一心\wzyx\Doctors\Doctors.Common\bin\Debug\Doctors.Common.dll
+E:\万众一心\wzyx\Doctors\Doctors.Common\bin\Debug\Doctors.Common.pdb
+E:\万众一心\wzyx\Doctors\Doctors.Common\bin\Debug\log4net.dll
+E:\万众一心\wzyx\Doctors\Doctors.Common\bin\Debug\System.Net.Http.dll
+E:\万众一心\wzyx\Doctors\Doctors.Common\bin\Debug\System.Net.Http.Extensions.dll
+E:\万众一心\wzyx\Doctors\Doctors.Common\bin\Debug\System.Net.Http.Formatting.dll
+E:\万众一心\wzyx\Doctors\Doctors.Common\bin\Debug\System.Net.Http.Primitives.dll
+E:\万众一心\wzyx\Doctors\Doctors.Common\bin\Debug\System.Net.Http.WebRequest.dll
+E:\万众一心\wzyx\Doctors\Doctors.Common\bin\Debug\log4net.xml
+E:\万众一心\wzyx\Doctors\Doctors.Common\bin\Debug\System.Net.Http.xml
+E:\万众一心\wzyx\Doctors\Doctors.Common\bin\Debug\System.Net.Http.WebRequest.xml
+E:\万众一心\wzyx\Doctors\Doctors.Common\obj\Debug\Doctors.Common.csprojResolveAssemblyReference.cache
+E:\万众一心\wzyx\Doctors\Doctors.Common\obj\Debug\Doctors.Common.dll
+E:\万众一心\wzyx\Doctors\Doctors.Common\obj\Debug\Doctors.Common.pdb

@@ -13,3 +13,8 @@ L:\万众一心\wzyx\Doctors\Doctors.Model\bin\Debug\Doctors.Model.pdb
 L:\万众一心\wzyx\Doctors\Doctors.Model\obj\Debug\Doctors.Model.csprojResolveAssemblyReference.cache
 L:\万众一心\wzyx\Doctors\Doctors.Model\obj\Debug\Doctors.Model.dll
 L:\万众一心\wzyx\Doctors\Doctors.Model\obj\Debug\Doctors.Model.pdb
+E:\万众一心\wzyx\Doctors\Doctors.Model\bin\Debug\Doctors.Model.dll
+E:\万众一心\wzyx\Doctors\Doctors.Model\bin\Debug\Doctors.Model.pdb
+E:\万众一心\wzyx\Doctors\Doctors.Model\obj\Debug\Doctors.Model.csprojResolveAssemblyReference.cache
+E:\万众一心\wzyx\Doctors\Doctors.Model\obj\Debug\Doctors.Model.dll
+E:\万众一心\wzyx\Doctors\Doctors.Model\obj\Debug\Doctors.Model.pdb

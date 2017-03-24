@@ -56,7 +56,7 @@ namespace Doctors.Services
 
 
 
-            var circleslist = DapperSqlHelper.FindToList<CirclesInfoModel>(strsql.ToString(), paras, false);
+            IList<CirclesInfoModel> circleslist = DapperSqlHelper.FindToList<CirclesInfoModel>(strsql.ToString(), paras, false);
             return circleslist;
         }
     }
