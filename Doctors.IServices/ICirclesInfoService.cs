@@ -10,5 +10,6 @@ namespace Doctors.IServices
     public interface ICirclesInfoService
     {
         IList<CirclesInfoModel> GetCirclesInfo(int pageIndex, int pageSize, string city, string dep);
+        IList<CirclecommentModel> GetCommentsInfo(string circleId);
     }
 }

@@ -59,5 +59,14 @@ namespace Doctors.Services
             IList<CirclesInfoModel> circleslist = DapperSqlHelper.FindToList<CirclesInfoModel>(strsql.ToString(), paras, false);
             return circleslist;
         }
+
+        public IList<CirclecommentModel> GetCommentsInfo(string circleId)
+        {
+ 
+            DynamicParameters paras = new DynamicParameters();
+            paras.Add("@circleId", circleId, System.Data.DbType.String);
+            IList <CirclecommentModel> circlecommentlist = DapperSqlHelper.FindToList<CirclecommentModel>("commentContentInfo".ToString(), paras, true);
+            return circlecommentlist;
+        }
     }
 }
