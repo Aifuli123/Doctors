@@ -162,6 +162,7 @@
     <Compile Include="Controllers\BaseContolles\EncryptBaseController.cs" />
     <Compile Include="Controllers\CirclesInfoController.cs" />
     <Compile Include="Controllers\DoctorInforController.cs" />
+    <Compile Include="Controllers\QuestionController.cs" />
     <Compile Include="Filters\AuthorizeFilter.cs" />
     <Compile Include="CustomerAttributes\SkipCheckLogin.cs" />
     <Compile Include="CustomerAttributes\Test.cs" />
@@ -191,6 +192,7 @@
     <Folder Include="Areas\" />
     <Folder Include="Models\" />
     <Folder Include="Views\CirclesInfo\" />
+    <Folder Include="Views\Question\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />

@@ -46,6 +46,7 @@
     <Compile Include="CirclesInfoService.cs" />
     <Compile Include="DoctorInforService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QuestionService.cs" />
     <Compile Include="SysUserInfo.cs" />
   </ItemGroup>
   <ItemGroup>
