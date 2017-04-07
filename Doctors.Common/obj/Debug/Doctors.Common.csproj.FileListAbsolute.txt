@@ -48,3 +48,5 @@ E:\万众一心\wzyx\Doctors\Doctors.Common\bin\Debug\System.Net.Http.WebRequest
 E:\万众一心\wzyx\Doctors\Doctors.Common\obj\Debug\Doctors.Common.csprojResolveAssemblyReference.cache
 E:\万众一心\wzyx\Doctors\Doctors.Common\obj\Debug\Doctors.Common.dll
 E:\万众一心\wzyx\Doctors\Doctors.Common\obj\Debug\Doctors.Common.pdb
+E:\MyRepository\Doctors\Doctors.Common\bin\Debug\log4net.dll
+E:\MyRepository\Doctors\Doctors.Common\bin\Debug\log4net.xml
